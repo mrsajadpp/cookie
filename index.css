@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Fredoka&family=Nunito+Sans:wght@200&family=Raleway:wght@461&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+.dark{
+  background-color: #000 !important;
+  color: #fff !important;
+}
+#header{
+  width: 100vw;
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  /*box-shadow: 0px 0px 2px;*/
+  position: fixed;
+  top: 0px;
+}
+#hLeft{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 13vw;
+  color: #000;
+}
+#hCenter{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 74vw;
+}
+#hRight{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 13vw;
+  color: #000;
+}
+#logo{
+  width: 50px;
+}
+#hIcon{
+  font-size: 27px;
+}
+#area{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#container{
+  width: 100vw;
+  height: 100vh;
+}
+#pages{
+  width: 100%;
+  height: 100%;
+}
+#menuBody{
+  width: 100vw;
+  height: 95vh;
+  background-color: orange;
+  position: fixed;
+  top: 50px;
+}
+#navBar{
+  width: 100vw;
+  height: 300px;
+  background-color: orange;
+  top: 50px;
+  /*position: fixed;*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#option{
+  width: 100vw;
+  height: 45px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  border: none;
+  background-color: orange;
+}
+#navIcon{
+  font-size: 25px;
+  margin-left: 2vw;
+}
+#navText{
+  font-size: 20.8px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+#type{
+  display: flex;
+}
+#searchArea{
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#searchBar{
+  width: 320px;
+}
+#searchLogo{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 200px;
+  margin-top: 50px;
+}
+#logoImg{
+  width: 300px;
+}
+#searchC{
+  width: 90vw;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#searchInput{
+  width: 250px;
+  height: 41px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 10px;
+}
+#searchBtn{
+  width: 40px;
+  height: 43px;
+  font-size: 26px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: none;
+  background-color: orange;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+} 
+#filler{
+  width: 290px;
+  height: 43px;
+  display: flex;
+  background-color: wheat;
+  border-radius: 5px;
+}
+.hidden{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
