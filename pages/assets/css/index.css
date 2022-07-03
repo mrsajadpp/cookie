@@ -2,8 +2,9 @@
 body{
   margin: 0px;
   padding: 0px;
+  width: 100vw;
+  height: 100vh;
   font-family: 'Raleway', sans-serif;
-  height: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
