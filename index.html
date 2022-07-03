@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>cookie search - Cookie</title>
+    <!--ICON-->
+    <link rel="icon" type="image/x-icon" href="./pages/assets/img/cookie.ico">
+    <link rel="apple-touch-icon" type="image/png" href = "./pages/assets/img/cookie.png">
+    <!--STYLES-->
+    <link rel="stylesheet" href="./pages/assets/css/index.css" type="text/css" media="all" />
+    <!--BOXICON-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header id="header">
+      <div onclick="menu()" id="hLeft">
+        <span onclick="" id="hIcon" class="bx bx-menu-alt-left menuIcon"></span>
+      </div>
+      <div id="hCenter">
+        <div id="area">
+          <img id="logo" src="./pages/assets/img/cookie.svg" alt="Sajad-pp" />
+        </div>
+      </div>
+      <div id="hRight">
+        <span id="hIcon" class="bx bx-qr-scan"></span>
+      </div>
+    </header>
+    <!--NAVIGATION-->
+    <div id="menuBody" class="hidden">
+    <div id="navBar" class="hidden">
+      <button onclick="var pageUrl = 'home.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-home"></span><span id="navText">Home</span></span>
+      </button> 
+      <button onclick="var pageUrl = 'settings.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-cog"></span><span id="navText">Settings</span></span>
+      </button>
+      <button onclick="var pageUrl = 'bot.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-bot"></span><span id="navText">Bot</span></span>
+      </button>
+      <button onclick="var pageUrl = 'info.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-info-circle"></span><span id="navText">More info</span></span>
+      </button>
+      <button onclick="theme();" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-moon tIcon"></span><span id="navText" class="tText">Dark</span></span>
+      </button>
+      <button onclick="var pageUrl = 'edit.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-credit-card"></span><span id="navText">Donate</span></span>
+      </button>
+      <button onclick="var pageUrl = 'report.html'; load(pageUrl);" id="option">
+        <span id="type"><span id="navIcon" class="bx bxs-bug"></span><span id="navText">Report bug</span></span>
+      </button>
+    </div>
+    </div>
+    <!--BODY-->
+    <div id="container" class="hidden">
+      <iframe class="hidden" id="pages" src="./pages/home.html" frameborder="0"></iframe>
+    </div>
+    <!--SEARCH-->
+    <div class="search" id="searchArea">
+      <div id="searchLogo">
+        <img id="logoImg" src="./pages/assets/img/cookie_header.png" alt="cookie" />
+      </div>
+      <!--<form action="search" autocomplete="off">-->
+        <div id="searchC">
+          <div id="filler">
+            <input type="text" name="q" id="searchInput" placeholder="Search" />
+            <button id="searchBtn" type="submit"><span class="bx bx-search"></span></button>
+          </div>
+        </div>
+        <div id="resultss"></div>
+      <!--</form>-->
+      <!--<script async src="https://cse.google.com/cse.js?cx=5ad7182c286b8c2ee">
+      </script>
+      <div oninput="inputSearch()" id="searchBar" class="gcse-searchbox-only"></div>-->
+    </div>
+    <!--SCRIPT-->
+    <script src="./pages/assets/js/index.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
