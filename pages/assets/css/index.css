@@ -99,13 +99,14 @@ body{
 }
 #searchArea{
   margin-top: 50px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
 }
 #searchBar{
-  width: 320px;
+  width: 90%;
 }
 #searchLogo{
   align-items: center;
@@ -113,7 +114,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 200px;
+  height: 220px;
   margin-top: 50px;
 }
 #logoImg{
@@ -127,8 +128,8 @@ body{
   display: flex;
 }
 #searchInput{
-  width: 250px;
-  height: 41px;
+  width: 90%;
+  height: 100%;
   outline: none;
   border: none;
   background-color: transparent;
@@ -137,8 +138,8 @@ body{
   padding-left: 10px;
 }
 #searchBtn{
-  width: 40px;
-  height: 43px;
+  width: 15%;
+  height: 100%;
   font-size: 26px;
   justify-content: center;
   align-items: center;
@@ -149,7 +150,7 @@ body{
   border-top-right-radius: 5px;
 } 
 #filler{
-  width: 290px;
+  width: 90%;
   height: 43px;
   display: flex;
   background-color: wheat;
